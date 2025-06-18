@@ -33,6 +33,4 @@ public class Docter {
 
     @OneToMany(mappedBy = "docter", cascade = CascadeType.ALL)
     private List<Reservation> reservationList = new ArrayList<>();
-
-
 }
